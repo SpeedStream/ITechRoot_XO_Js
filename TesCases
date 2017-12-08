@@ -1,0 +1,23 @@
+/*
+TEST CASES
+
+AESC - SpeedStream
+08/12/2017 09:40:35
+*/
+
+print("TEST CASES");
+print("zpzpzpp -> " + XO("zpzpzpp"));
+print("xo -> " + XO("xo"));
+print("xxOo -> " + XO("xxOo"));
+print("xxxm -> " + XO("xxxm"));
+print("Oo -> " + XO("Oo"));
+print("Ox -> " + XO("Ox"));
+print("ooom -> " + XO("ooom"));
+
+print("SPECIAL TEST CASES");
+print(" -> " + XO(""));
+print("o O -> " + XO("o O"));
+print(" X -> " + XO(" X"));
+print("y -> " + XO("y"));
+print(" a  -> " + XO(" a "));
+print("0 -> " + XO("0"));
